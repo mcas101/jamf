@@ -1,1 +1,1 @@
-# Importan scripts for jamf.
+# Important scripts for jamf.
