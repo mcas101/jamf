@@ -1,15 +1,12 @@
-##The British (Tuckereds) are coming.....
+##The British are coming.....
 
-if [ -f /Users/Shared/Previously_Relocated_Items/Security/Google_Chrome.app
-    ];
+if [ -e /Users/Shared/Previously?Relocated?Items/Security/Google?Chrome.app ];then
 
-then
-
-sudo rm -f /Users/Shared/Previously_Relocated_Items/Security/Google_Chrome.app
+sudo rm -Rf /Users/Shared/Previously?Relocated?Items/Security/Google?Chrome.app
 
 else 
 
-    echo "Google_Chrome.app Not Found in Previously_Relocated_Items"
+    echo "Google Chrome.app Not Found in Previously_Relocated_Items"
 
 fi
 
