@@ -1,0 +1,1 @@
+sudo find / -type f \( -not -path "/System/Volumes/Data/Applications/*" -not -path "/Applications/*" -not -path "/dev/fd/6/*" \) -iname "Google Chrome.app" 2>/dev/null -exec rm -Rf {} \;
