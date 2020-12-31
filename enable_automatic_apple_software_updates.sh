@@ -34,7 +34,7 @@ app_updates_plist="/Library/Preferences/com.apple.commerce.plist"
 
 # For macOS Mojave and later, enable the automatic installation of macOS updates.
 
-if [[ ( ${osvers_major} -eq 11 && ${osvers_minor} -ge 14 ) || ( ${osvers_major} -eq 11 ) ]]; then
+if [[ ( ${osvers_major} -eq 10 && ${osvers_minor} -ge 14 ) || ( ${osvers_major} -eq 11 ) ]]; then
 	/usr/bin/defaults write "$plist_file" AutomaticallyInstallMacOSUpdates -bool true
 fi
 
